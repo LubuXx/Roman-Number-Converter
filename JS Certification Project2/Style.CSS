@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 50px 20px;
+    font-family: 'Lato', Helvetica, Arial, Helvetica, sans-serifsans-serif;
+    font-size: 18px;
+    background-color: rgb(2, 0, 36);
+    background-image: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(151, 185, 195, 1) 46%, rgba(0, 212, 255, 1) 100%);
+    color: #0a0a23;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 350px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+form {
+    color: #0a0a23;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(62,192,176,1) 13%, rgba(241,238,230,1) 100%);
+    border: 2px solid  #f5f6f7;
+    margin: auto 25px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    min-height: 55px;
+    padding: 15px;
+}
+
+fieldset {
+    border: 0 none;
+    height: 100%;
+    padding: 25px;
+    margin: 10px 20px;
+    display: block;
+    margin-inline-start: min-content;
+    margin-inline: 2px;
+    padding-block: 0.35em 0.625em;
+    padding-inline: 0.75em;
+}
+
+label {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    font-size: 2.5rem;
+    width: 100%;
+    height: 60px;
+    padding: 6px 12px;
+    margin: 10px 0;
+    line-height: 1.4;
+    color: white;
+    background-color:rgb(195, 194, 209);
+    border: 1px solid #000;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 15px;
+    text-decoration: none;
+    background: rgb(17, 5, 255);
+    background-image: linear-gradient(9deg, rgba(17,5,227,1) 0%, rgba(38,168,177,1) 46%, rgba(5,30,130,1) 100%);
+    color: #ffffff;
+    border: 3px solid #0a0a23;
+    font-size: 23px;
+    width: 100%;
+    min-height: 55px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.output {
+    color: #0a0a23;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(62,192,176,1) 13%, rgba(241,238,230,1) 100%);
+    border: 2px solid  #f5f6f7;
+    width: 90%;
+    max-width: 500px;
+    font-size: 2.5rem;
+    text-align: center;
+    min-height: 55px;
+    margin-top: 25px;
+    padding: 15px;
+    overflow-wrap: break-word;
+}
